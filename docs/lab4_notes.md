@@ -1,0 +1,5 @@
+1. Accuracy 0.804 means the model correctly predicted 80.4% of the customers.Recall 0.303 means it identified only 30.3% of the customers who actually left.Accuracy is misleading because the model missed many customers who were going to leave.
+2. A false positive means the model predicts that a customer will leave, but the customer actually stays.A false negative means the model predicts that a customer will stay, but the customer actually leaves.A false negative costs ShopSmart more because it may lose a customer.
+3. When the threshold decreases, recall increases because more customers are identified as likely to leave and precision decreases because more customers may be wrongly flagged.
+4. I changed the threshold from 0.4 to 0.3 because missing customers who may leave is more costly for ShopSmart.At 0.3, the model achieves approximately 0.488 precision and 0.648 recall, identifying around 79 out of 122 customers who left.This helps ShopSmart identify more customers who may leave.
+5. We used cross-validation on the training data to compare models and find the best settings.We kept the test data separate to check how well the final model works on new data.
