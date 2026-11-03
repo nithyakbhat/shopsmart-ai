@@ -1,4 +1,4 @@
 1. We split the data so the model can learn from the training data and be tested on new data.The scaler learns only from training data to avoid using information from the test data and to get a fair evaluation.
 2. stratify=y keeps the same proportion of churned and retained customers in both training and test sets. The churn rates of 0.245 and 0.244 show that both sets have almost the same distribution.
 3. At max_depth=6,the training accuracy is 0.812 and test accuracy is 0.780. At max_depth=None,training accuracy becomes 1.000, but test accuracy is only 0.766.This shows that the model memorises the training data and performs poorly on new data which results in overfitting.
-4. The baseline accuracy is already 75.6% by simply predicting that every customer will stay.So,80% accuracy is only a small improvement over the baseline.
+4. The baseline accuracy is already 75.6% by simply predicting that every customer will stay.So,80% accuracy is only a small improvement over the baseline.  
