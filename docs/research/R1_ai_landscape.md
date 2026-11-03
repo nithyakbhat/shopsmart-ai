@@ -1,3 +1,15 @@
+# Step 2: Source Notes
+
+| Source (title, publisher, date) | Link | Type of source | Key points | Which AI type(s) it supports |
+|---|---|---|---|---|
+| Tchibo – Google Cloud (Date not mentioned) | [Link](https://cloud.google.com/customers/tchibogmbh) | Official | Uses AI to predict product demand and manage stock. | Predictive |
+| Wipro Enterprises – Google Cloud (Date not mentioned) | [Link](https://cloud.google.com/customers/wipro-da) | Official | Uses AI for product recommendations and sales insights. | Descriptive / Prescriptive |
+| Central Group – Google Cloud (Date not mentioned) | [Link](https://cloud.google.com/customers/central-group) | Official | Uses AI for customer insights and product descriptions. | Diagnostic / Generative |
+| Generative AI for Product Listings – Amazon (Date not mentioned) | [Link](https://sellingpartners.aboutamazon.com/product-listings-with-gen-ai) | Official | Helps sellers create product titles and descriptions using AI. | Generative |
+| Introduction to AI Agents – Microsoft Learn (Date not mentioned) | [Link](https://learn.microsoft.com/en-us/startups/build/ai/agents/intro-agents) | Official | Explains how AI agents use tools and perform tasks. | Agentic |
+
+
+# Step 3: Write an Outline
 The AI Landscape and Choosing the Right AI
 1. Question and Scope
 - Understand the six types of AI: descriptive, diagnostic, predictive, prescriptive, generative, and agentic AI.
